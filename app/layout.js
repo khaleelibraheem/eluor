@@ -21,9 +21,26 @@ export const metadata = {
   authors: [{ name: "Eluor" }],
   openGraph: {
     title: "Eluor - The Chosen Gold",
-    description: "A curated collection of distinguished properties for the discerning few.",
+    description: "A curated collection of distinguished properties for the discerning few. Where architectural significance meets timeless elegance.",
     type: "website",
+    siteName: "Eluor",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Eluor - The Chosen Gold - Premium Real Estate",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Eluor - The Chosen Gold",
+    description: "A curated collection of distinguished properties for the discerning few.",
+    images: ["/og-image.png"],
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({ children }) {

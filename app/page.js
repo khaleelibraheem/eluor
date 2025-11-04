@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen flex justify-center items-center bg-gradient-to-b from-neutral-50 via-stone-100 to-amber-50 relative overflow-hidden">
+      <div className="min-h-screen flex justify-center items-center bg-linear-to-b from-neutral-50 via-stone-100 to-amber-50 relative overflow-hidden">
         {/* Subtle texture overlay */}
         <div
           className="absolute inset-0 opacity-30"
@@ -11,8 +11,8 @@ export default function Home() {
         ></div>
 
         {/* Large editorial accent line */}
-        <div className="absolute top-0 left-0 w-1 h-64 bg-gradient-to-b from-amber-600 to-transparent"></div>
-        <div className="absolute bottom-0 right-0 w-1 h-64 bg-gradient-to-t from-amber-600 to-transparent"></div>
+        <div className="absolute top-0 left-0 w-1 h-64 bg-linear-to-b from-amber-600 to-transparent"></div>
+        <div className="absolute bottom-0 right-0 w-1 h-64 bg-linear-to-t from-amber-600 to-transparent"></div>
 
         {/* Content */}
         <div className="relative z-10 px-6 md:px-8 max-w-5xl w-full">
