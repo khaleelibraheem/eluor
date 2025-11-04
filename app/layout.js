@@ -40,6 +40,10 @@ export const metadata = {
     description: "A curated collection of distinguished properties for the discerning few.",
     images: ["/og-image.png"],
   },
+  themeColor: "#FAFAFA",
+   other: {
+    "apple-mobile-web-app-status-bar-style": "default",
+  },
   manifest: "/manifest.json",
 };
 
