@@ -15,8 +15,15 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Eluor",
-  description: "The Chosen Gold - A Premium Real Estate Listing",
+  title: "Eluor - The Chosen Gold",
+  description: "Discover extraordinary homes in the most sought-after locations. A curated collection of distinguished properties for the discerning few, where architectural significance meets timeless elegance.",
+  keywords: ["luxury real estate", "premium properties", "distinguished homes", "eluor", "architectural homes"],
+  authors: [{ name: "Eluor" }],
+  openGraph: {
+    title: "Eluor - The Chosen Gold",
+    description: "A curated collection of distinguished properties for the discerning few.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
