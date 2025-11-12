@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <div className="w-full flex items-center justify-between px-6 lg:px-0 rounded-full lg:rounded-0 bg-white/10 backdrop-blur-[49.2px] border-b border-white/10 lg:bg-transparent lg:backdrop-blur-none lg:border-0 lg:py-4">
+      <div className="w-full flex items-center justify-between px-6 lg:px-0 rounded-full lg:rounded-0 bg-white/20 backdrop-blur-[49.2px] border-b border-white/10 lg:bg-transparent lg:backdrop-blur-none lg:border-0 lg:py-4">
         {/* Logo */}
         <div>
           <Image src="/logo.png" alt="Logo" width={80} height={50} className="w-[65px] lg:w-20" />
@@ -56,12 +56,12 @@ export default function Navbar() {
           >
             Sign In
           </Link>
-          <Link
+          {/* <Link
             href="#"
             className="border border-white px-6 py-3 text-sm text-black rounded-[50px] bg-white transition-all duration-300 hover:bg-transparent hover:text-white"
           >
             Sign Up
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Menu Button */}
